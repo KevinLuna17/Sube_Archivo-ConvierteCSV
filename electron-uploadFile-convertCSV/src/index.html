@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/styles.css">
+    <title>Excel a CSV</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Convertidor de Excel a CSV</h2>
+
+        <div class="opciones">
+            <div class="opcion">
+                <label>Selecciona el archivo de Nómina!</label>
+                <input type="file" id="subir_archivo" />
+            </div>
+            
+        </div>
+        <button id="generar" class="btn btn-largo">Convertir!</button>
+    </div>
+    <div id="resultado"></div>
+
+    <script type="text/javascript" src="./controlador.js"></script>
+</body>
+</html>
